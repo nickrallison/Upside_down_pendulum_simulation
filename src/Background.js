@@ -10,6 +10,7 @@ export default function Background() {
         <div className="Background">
             <div className="background">
                 <header className="background-header">
+
                     <Timer startTimeInSecodns={0}/>
                 </header>
             </div>

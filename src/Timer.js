@@ -12,12 +12,12 @@ export default class Timer extends React.Component {
 
     tick() {
         this.setState(state => ({
-            seconds: state.seconds + 0.016
+            seconds: state.seconds + 0.16
         }));
     }
 
     componentDidMount() {
-        this.interval = setInterval(() => this.tick(), 16);
+        this.interval = setInterval(() => this.tick(), 160);
     }
 
     componentWillUnmount() {
@@ -37,7 +37,7 @@ export default class Timer extends React.Component {
     render() {
         return (
             <div>
-                <MovingPendulum posx = {-100} angle = {0.3} />
+                <MovingPendulum posx = {0} theta = {0.1} delposx = {0} deltheta = {0}/>
             </div>
         );
     }
