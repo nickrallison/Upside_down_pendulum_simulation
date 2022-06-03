@@ -11,7 +11,7 @@ export default function Background() {
             <div className="background">
                 <header className="background-header">
 
-                    <Timer startTimeInSecodns={0}/>
+                    <Timer startTimeInSecodns={0} posx = {0} theta = {0.1} delposx = {0} deltheta = {0}/>
                 </header>
             </div>
             <div className="ground">

@@ -28,6 +28,7 @@ export default class MovingPendulum extends React.Component {
         let delxnext = this.state.delposx + 0.00006 * deldelx
         let delthetanext = this.state.deltheta + 0.00006 * deldeltheta
 
+
         this.setState(state => ({
             posx: xnext
         }));
