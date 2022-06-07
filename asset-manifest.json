@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Upside_Down_Pendulum_Simulation/static/css/main.2b044092.css",
+    "main.js": "/Upside_Down_Pendulum_Simulation/static/js/main.4684d6c0.js",
+    "static/js/787.611ab093.chunk.js": "/Upside_Down_Pendulum_Simulation/static/js/787.611ab093.chunk.js",
+    "index.html": "/Upside_Down_Pendulum_Simulation/index.html",
+    "main.2b044092.css.map": "/Upside_Down_Pendulum_Simulation/static/css/main.2b044092.css.map",
+    "main.4684d6c0.js.map": "/Upside_Down_Pendulum_Simulation/static/js/main.4684d6c0.js.map",
+    "787.611ab093.chunk.js.map": "/Upside_Down_Pendulum_Simulation/static/js/787.611ab093.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b044092.css",
+    "static/js/main.4684d6c0.js"
+  ]
+}
