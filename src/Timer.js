@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import "./MovingPendulum"
-import MovingPendulum from "./MovingPendulum";
+import "./Timer.css"
 
 export default class Timer extends React.Component {
     constructor(props) {
@@ -80,15 +79,15 @@ export default class Timer extends React.Component {
             testvar: this.state.F
         }));
 
-        if (this.state.posx >  window.innerWidth / 2 + 100) {
+        if (this.state.posx >  window.innerWidth) {
             this.setState(state => ({
-                posx: - window.innerWidth / 2  - 100
+                posx: - 200
             }));
         }
 
-        if (this.state.posx < - window.innerWidth / 2 - 100) {
+        if (this.state.posx < - 200) {
             this.setState(state => ({
-                posx: window.innerWidth / 2 + 100
+                posx: window.innerWidth
             }));
         }
 

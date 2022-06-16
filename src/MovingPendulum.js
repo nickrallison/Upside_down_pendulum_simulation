@@ -55,15 +55,15 @@ export default class MovingPendulum extends React.Component {
             testvar: window.innerWidth
         }));
 
-        if (this.state.posx >  window.innerWidth / 2 + 100) {
+        if (this.state.posx >  window.innerWidth + 100) {
             this.setState(state => ({
-                posx: - window.innerWidth / 2  - 100
+                posx: - window.innerWidth  - 100
             }));
         }
 
-        if (this.state.posx < - window.innerWidth / 2 - 100) {
+        if (this.state.posx < - 100) {
             this.setState(state => ({
-                posx: window.innerWidth / 2 + 100
+                posx:  100
             }));
         }
 

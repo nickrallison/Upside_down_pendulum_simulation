@@ -10,17 +10,13 @@ export default function Background() {
         <div className="Background">
             <div className="background">
                 <header className="background-header">
-
-                    <Timer startTimeInSecodns={0} posx = {0} theta = {0.1} delposx = {0} deltheta = {0}/>
                 </header>
             </div>
             <div className="ground">
                 <header className="ground-header">
-                    <p>
-                        Edit <code>src/App.js</code> and save to reload.
-                    </p>
                 </header>
             </div>
+            <Timer startTimeInSecodns={0} posx = {0} theta = {0.1} delposx = {0} deltheta = {0}/>
         </div>
     );
 }
